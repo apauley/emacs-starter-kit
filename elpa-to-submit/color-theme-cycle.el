@@ -28,3 +28,5 @@
 (setq color-theme-is-global nil) ; Initialization
 (my-theme-set-default)
 (global-set-key [f6] 'my-theme-cycle)
+
+(provide 'color-theme-cycle)
