@@ -1,3 +1,9 @@
+;; To cycle through the available themes, bind the cycle function to a key
+;; and press repeatedly. Example using F6:
+;; (require 'color-theme-cycle)
+;; (global-set-key [f6] 'my-theme-cycle)
+
+
 ;; Taken (with some slight modifications) from
 ;; http://www.emacswiki.org/emacs/ColorTheme#toc7
 ;; http://www.emacswiki.org/emacs/JakubHozak
@@ -27,6 +33,5 @@
 (setq theme-current my-color-themes)
 (setq color-theme-is-global nil) ; Initialization
 (my-theme-set-default)
-(global-set-key [f6] 'my-theme-cycle)
 
 (provide 'color-theme-cycle)
