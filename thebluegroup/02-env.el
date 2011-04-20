@@ -4,6 +4,7 @@
       '(trailing lines space-before-tab indentation space-after-tab)
       whitespace-line-column 80)
 
+(column-number-mode 1)
 (global-linum-mode 1)
 (global-whitespace-mode 1)
 
