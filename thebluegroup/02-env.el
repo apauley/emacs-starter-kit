@@ -7,4 +7,4 @@
 (global-linum-mode 1)
 (global-whitespace-mode 1)
 
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'before-save-hook 'whitespace-cleanup)
