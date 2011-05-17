@@ -8,3 +8,4 @@
 (add-to-list 'load-path erl-emacs-dir)
 
 (require 'erlang-start)
+(require 'erlang-flymake)
