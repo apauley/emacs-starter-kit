@@ -7,5 +7,7 @@
 (setq erl-emacs-dir (concat erl-tools-dir "emacs"))
 (add-to-list 'load-path erl-emacs-dir)
 
+(setq tags-file-name "~/olympus/TAGS")
+
 (require 'erlang-start)
 (require 'erlang-flymake)
