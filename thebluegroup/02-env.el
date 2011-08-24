@@ -6,5 +6,3 @@
 
 (column-number-mode 1)
 (global-linum-mode 1)
-
-(add-hook 'before-save-hook 'whitespace-cleanup)
